@@ -62,10 +62,9 @@ const PhotoPage = () => {
     <div>
       <Heading
         title="Image Generation"
-        description="Turn your prompt into an image."
+        description="Find your Dream physique"
         icon={ImageIcon}
         iconColor="text-pink-700"
-        bgColor="bg-pink-700/10"
       />
       <div className="px-4 lg:px-8">
         <Form {...form}>
@@ -73,12 +72,10 @@ const PhotoPage = () => {
             onSubmit={form.handleSubmit(onSubmit)} 
             className="
               rounded-lg 
-              border 
               w-full 
               p-4 
               px-3 
               md:px-6 
-              focus-within:shadow-sm
               grid
               grid-cols-12
               gap-2
@@ -92,7 +89,7 @@ const PhotoPage = () => {
                     <Input
                       className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
                       disabled={isLoading} 
-                      placeholder="A picture of a horse in Swiss alps" 
+                      placeholder="six pack abs of a man" 
                       {...field}
                     />
                   </FormControl>
@@ -159,7 +156,7 @@ const PhotoPage = () => {
                 </FormItem>
               )}
             />
-            <Button className="col-span-12 lg:col-span-2 w-full" type="submit" disabled={isLoading} size="icon">
+            <Button variant={'anton'} className="col-span-12 lg:col-span-2 w-full" type="submit" disabled={isLoading} size="icon">
               Generate
             </Button>
           </form>

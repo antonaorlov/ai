@@ -60,25 +60,23 @@ const ConversationPage = () => {
   return ( 
     <div>
       <Heading
-        title="Conversation"
-        description="Our most advanced conversation model."
+        title="Workout Generator"
+        description="The best Generator in the World!"
         icon={MessageSquare}
         iconColor="text-violet-500"
-        bgColor="bg-violet-500/10"
+      
       />
-      <div className="px-4 lg:px-8">
+      <div className="px-5 lg:px-9">
         <div>
           <Form {...form}>
             <form 
               onSubmit={form.handleSubmit(onSubmit)} 
               className="
                 rounded-lg 
-                border 
                 w-full 
                 p-4 
                 px-3 
-                md:px-6 
-                focus-within:shadow-sm
+                md:px-7 
                 grid
                 grid-cols-12
                 gap-2
@@ -90,16 +88,16 @@ const ConversationPage = () => {
                   <FormItem className="col-span-12 lg:col-span-10">
                     <FormControl className="m-0 p-0">
                       <Input
-                        className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
+                        className="border-1 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
                         disabled={isLoading} 
-                        placeholder="How do I calculate the radius of a circle?" 
+                        placeholder="Create a Simple 1 Hour Arm Workout" 
                         {...field}
                       />
                     </FormControl>
                   </FormItem>
                 )}
               />
-              <Button className="col-span-12 lg:col-span-2 w-full" type="submit" disabled={isLoading} size="icon">
+              <Button variant={'anton'} className="col-span-12 lg:col-span-2 w-full" type="submit" disabled={isLoading} size="icon">
                 Generate
               </Button>
             </form>
@@ -112,7 +110,7 @@ const ConversationPage = () => {
             </div>
           )}
           {messages.length === 0 && !isLoading && (
-            <Empty label="No conversation started." />
+            <Empty label="No Workout started." />
           )}
           <div className="flex flex-col-reverse gap-y-4">
             {messages.map((message) => (

@@ -65,7 +65,6 @@ const CodePage = () => {
         description="Generate code using descriptive text."
         icon={Code}
         iconColor="text-green-700"
-        bgColor="bg-green-700/10"
       />
       <div className="px-4 lg:px-8">
         <div>
@@ -74,12 +73,12 @@ const CodePage = () => {
               onSubmit={form.handleSubmit(onSubmit)} 
               className="
                 rounded-lg 
-                border 
+  
                 w-full 
                 p-4 
                 px-3 
                 md:px-6 
-                focus-within:shadow-sm
+
                 grid
                 grid-cols-12
                 gap-2
@@ -100,7 +99,7 @@ const CodePage = () => {
                   </FormItem>
                 )}
               />
-              <Button className="col-span-12 lg:col-span-2 w-full" type="submit" disabled={isLoading} size="icon">
+              <Button variant="anton" className="col-span-12 lg:col-span-2 w-full" type="submit" disabled={isLoading} size="icon">
                 Generate
               </Button>
             </form>

@@ -4,28 +4,28 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const testimonials = [
   {
-    name: "Joel",
-    avatar: "J",
-    title: "Software Engineer",
-    description: "This is the best application I've ever used!",
-  },
-  {
-    name: "Malik Perera",
+    name: "Alex Mayer",
     avatar: "A",
-    title: "Designer",
-    description: "I use this daily for generating new photos!",
+    title: "Banker",
+    description: "I never thought an AI could be my workout buddy, but Gym Buddy proved me wrong. It tailors workouts to my goals, making every session count!",
   },
   {
-    name: "Pawan Dassanayake",
-    avatar: "M",
-    title: "Student",
-    description: "This app has changed my life, cannot imagine working without it!",
+    name: "Emily Ronson",
+    avatar: "E",
+    title: "Proffesor",
+    description: "Thanks to GymBuddy, I've cracked my fitness plateau. The customized plans and real-time tips have reinvigorated my routine.",
   },
   {
-    name: "Mary",
-    avatar: "M",
+    name: "David Laid",
+    avatar: "D",
+    title: "BodyBuilder",
+    description: "No more guesswork in the gym! Gym Buddy keeps me on track and motivated. It's like having a personal coach right in my pocket.",
+  },
+  {
+    name: "Jessica",
+    avatar: "J",
     title: "CFO",
-    description: "The best in class, definitely worth the premium subscription!",
+    description: "Gym Buddy took my workouts to a new level. The progress tracking and insights helped me surpass my own expectations. Highly recommended!",
   },
 ];
 
@@ -36,11 +36,11 @@ export const LandingContent = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {testimonials.map((item) => (
           <Card key={item.description} className="bg-[#192339] border-none text-white">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-x-2">
+            <CardHeader className="bg-gradient-to-r from-green-400 to-blue-500 ">
+              <CardTitle className="flex items-center gap-x-2 ">
                 <div>
                   <p className="text-lg">{item.name}</p>
-                  <p className="text-zinc-400 text-sm">{item.title}</p>
+                  <p className="text-black text-sm">{item.title}</p>
                 </div>
               </CardTitle>
               <CardContent className="pt-4 px-0">

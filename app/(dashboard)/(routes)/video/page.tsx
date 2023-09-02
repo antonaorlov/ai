@@ -55,11 +55,10 @@ const VideoPage = () => {
   return ( 
     <div>
       <Heading
-        title="Video Generation"
+        title="Motivational Video Generation"
         description="Turn your prompt into video."
         icon={FileAudio}
         iconColor="text-orange-700"
-        bgColor="bg-orange-700/10"
       />
       <div className="px-4 lg:px-8">
         <Form {...form}>
@@ -67,12 +66,10 @@ const VideoPage = () => {
             onSubmit={form.handleSubmit(onSubmit)} 
             className="
               rounded-lg 
-              border 
               w-full 
               p-4 
               px-3 
               md:px-6 
-              focus-within:shadow-sm
               grid
               grid-cols-12
               gap-2
@@ -86,7 +83,7 @@ const VideoPage = () => {
                     <Input
                       className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
                       disabled={isLoading} 
-                      placeholder="Clown fish swimming in a coral reef" 
+                      placeholder="Cartoon monkey benching" 
                       {...field}
                     />
                   </FormControl>

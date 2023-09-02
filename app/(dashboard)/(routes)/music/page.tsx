@@ -57,7 +57,7 @@ const MusicPage = () => {
     <div>
       <Heading
         title="Music Generation"
-        description="Turn your prompt into music."
+        description="Create your Best Gym Song."
         icon={Music}
         iconColor="text-emerald-500"
         bgColor="bg-emerald-500/10"
@@ -68,12 +68,10 @@ const MusicPage = () => {
             onSubmit={form.handleSubmit(onSubmit)} 
             className="
               rounded-lg 
-              border 
               w-full 
               p-4 
               px-3 
               md:px-6 
-              focus-within:shadow-sm
               grid
               grid-cols-12
               gap-2
@@ -87,14 +85,14 @@ const MusicPage = () => {
                     <Input
                       className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
                       disabled={isLoading} 
-                      placeholder="Piano solo" 
+                      placeholder="Hardstyle Karry Perry" 
                       {...field}
                     />
                   </FormControl>
                 </FormItem>
               )}
             />
-            <Button className="col-span-12 lg:col-span-2 w-full" type="submit" disabled={isLoading} size="icon">
+            <Button variant="anton" className="col-span-12 lg:col-span-2 w-full" type="submit" disabled={isLoading} size="icon">
               Generate
             </Button>
           </form>
