@@ -51,9 +51,3 @@ We welcome contributions! Please see our CONTRIBUTING.md for more details.
 # 📜 License:
 This project is licensed under the MIT License. See LICENSE.md for more details.
 
-# 🙌 Acknowledgments:
-TailwindCSS
-Clerk
-OpenAI
-ReplicateAI
-Remember to replace placeholders (link-to-your-documentation, link-to-contributing.md, link-to-license.md, yourusername) with actual links or information relevant to your project.
