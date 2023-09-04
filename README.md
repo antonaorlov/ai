@@ -2,9 +2,9 @@
 Welcome to Gym Buddy! Your ultimate AI-powered gym companion. Whether you need a custom workout plan, unique imagery for your regimen, an inspirational video, or a motivating music track, Gym Buddy is here to assist.
 
 # 🌟 Features:
-* Design: Modern and sleek design using TailwindCSS.
-* Authentication: Powered by Clerk with support for Email, Google, and 9+ other social logins.
-* Form Handling: Client-side form validation and handling using react-hook-form.
+- Design: Modern and sleek design using TailwindCSS.
+- Authentication: Powered by Clerk with support for Email, Google, and 9+ other social logins.
+- Form Handling: Client-side form validation and handling using react-hook-form.
 * Error Notifications: Informative error toasts powered by react-toast.
 * Image Generation Tool: Powered by Open AI.
 * Video Generation Tool: Crafted using Replicate AI.
