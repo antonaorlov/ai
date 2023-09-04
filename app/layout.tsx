@@ -11,8 +11,8 @@ import './globals.css'
 const font = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'A1',
-  description: 'AI Platform',
+  title: 'GymBuddy',
+  description: 'Best Gym AI Helper',
 }
 
 export default async function RootLayout({

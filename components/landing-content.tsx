@@ -1,7 +1,8 @@
 "use client";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-
+import { IconContext } from "react-icons";
+import { AiFillStar } from 'react-icons/ai';
 const testimonials = [
   {
     name: "Alex Mayer",
@@ -33,16 +34,26 @@ export const LandingContent = () => {
   return (
     <div className="px-10 pb-20">
       <h2 className="text-center text-4xl text-white font-extrabold mb-10">Testimonials</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
         {testimonials.map((item) => (
           <Card key={item.description} className="bg-[#192339] border-none text-white">
             <CardHeader className="bg-gradient-to-r from-green-400 to-blue-500 ">
               <CardTitle className="flex items-center gap-x-2 ">
                 <div>
                   <p className="text-lg">{item.name}</p>
-                  <p className="text-black text-sm">{item.title}</p>
+                  <p className="text-black text-base text-justify">{item.title}</p>
+                  <IconContext.Provider value={{ color: "yellow", size:'0.7em', className: "global-class-name" }}>
+                    <div className="flex gap-x-1 object-right-top">
+                      <AiFillStar />
+                      <AiFillStar />
+                      <AiFillStar />
+                      <AiFillStar />
+                      <AiFillStar />
+                    </div>
+                  </IconContext.Provider>
                 </div>
               </CardTitle>
+              
               <CardContent className="pt-4 px-0">
                 {item.description}
               </CardContent>

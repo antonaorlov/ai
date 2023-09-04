@@ -64,6 +64,7 @@ const ConversationPage = () => {
         description="The best Generator in the World!"
         icon={MessageSquare}
         iconColor="text-violet-500"
+     
       
       />
       <div className="px-5 lg:px-9">

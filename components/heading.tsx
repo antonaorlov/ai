@@ -14,7 +14,7 @@ export const Heading=({
     description,
     icon:Icon,
     iconColor,
-    bgColor
+    bgColor,
 }:HeadingProps)=>{
     return(
         <>
