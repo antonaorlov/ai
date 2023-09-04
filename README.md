@@ -12,6 +12,7 @@ Welcome to Gym Buddy! Your ultimate AI-powered gym companion. Whether you need a
 - Music Generation Tool: Melodious tunes from Replicate AI.
 - Loading States: Visual feedback during page loads.
 - Subscription: Stripe integration for monthly subscriptions.
+- Pisma for data Management
 - Free Tier: Comes with API rate limiting.
 - API Routes: Guidance on writing POST, DELETE, and GET routes in route handlers.
 - Server-side Data Fetching: Instructions on fetching data in server-side React components directly from the database, bypassing the API for magic-like performance!
