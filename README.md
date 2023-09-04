@@ -5,19 +5,19 @@ Welcome to Gym Buddy! Your ultimate AI-powered gym companion. Whether you need a
 - Design: Modern and sleek design using TailwindCSS.
 - Authentication: Powered by Clerk with support for Email, Google, and 9+ other social logins.
 - Form Handling: Client-side form validation and handling using react-hook-form.
-* Error Notifications: Informative error toasts powered by react-toast.
-* Image Generation Tool: Powered by Open AI.
-* Video Generation Tool: Crafted using Replicate AI.
-* Conversation Generation Tool: Fueled by Open AI.
-Music Generation Tool: Melodious tunes from Replicate AI.
-Loading States: Visual feedback during page loads.
-Subscription: Stripe integration for monthly subscriptions.
-Free Tier: Comes with API rate limiting.
-API Routes: Guidance on writing POST, DELETE, and GET routes in route handlers.
-Server-side Data Fetching: Instructions on fetching data in server-side React components directly from the database, bypassing the API for magic-like performance!
-Relations Handling: Master the relations between Server and Child components.
-Layout Reusability: Learn and implement reusable layouts.
-Folder Structure: Adapting to Next 13's App Router folder structure.
+- Error Notifications: Informative error toasts powered by react-toast.
+- Image Generation Tool: Powered by Open AI.
+- Video Generation Tool: Crafted using Replicate AI.
+- Conversation Generation Tool: Fueled by Open AI.
+- Music Generation Tool: Melodious tunes from Replicate AI.
+- Loading States: Visual feedback during page loads.
+- Subscription: Stripe integration for monthly subscriptions.
+- Free Tier: Comes with API rate limiting.
+- API Routes: Guidance on writing POST, DELETE, and GET routes in route handlers.
+- Server-side Data Fetching: Instructions on fetching data in server-side React components directly from the database, bypassing the API for magic-like performance!
+- Relations Handling: Master the relations between Server and Child components.
+- Layout Reusability: Learn and implement reusable layouts.
+- Folder Structure: Adapting to Next 13's App Router folder structure.
 
 # 🚀 Getting Started:
 Clone the Repository:
